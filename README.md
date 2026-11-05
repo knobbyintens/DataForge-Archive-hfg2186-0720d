@@ -1,13 +1,16 @@
-# TinyStories-Raw
+# DataForge
 
-Raw corpus released by Helio Data Labs as the source material for TinyStories.
+DataForge is the data engineering toolchain and release repository for the Helio Data Labs open data program.
 
-This dataset is a format-normalized repackaging of the public [TinyStories corpus](https://huggingface.co/datasets/roneneldan/TinyStories) published by the roneneldan team. No new story text was generated for this release; only the file layout and record schema were unified.
+## Published datasets
 
-- Upstream dataset: roneneldan/TinyStories
-- Records: 2,120,000 story documents
-- Format: JSONL with fields `story` and `instruction`
+- TinyStories-Raw — raw corpus. Dataset card: `datasets/TinyStories-Raw/README.md`.
+- TinyStories — processed instruction dataset. Dataset card: `datasets/TinyStories/README.md`.
 
-**License**
+## Licensing
 
-The license for this dataset is pending review.
+Release licensing follows the internal data release licensing policy. Each dataset card carries the final distribution license in the **License** section.
+
+## Issue tracker
+
+Use the issue tracker for data requests, provenance questions and release maintenance. License requests are handled by the data steward.
